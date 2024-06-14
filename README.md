@@ -41,16 +41,22 @@ The system captures live video feed through a webcam, processes each frame, and 
 >Nous recommandons l'utilisation d'une distribution Linux ou macOS.
 
 ### Step 1: Clone the Repository
+  ```
+  git clone https://github.com/18hyacinthe/Agricultural-Pest-Management
+  ```
 
-> git clone https://github.com/18hyacinthe/Agricultural-Pest-Management
-
-> cd Agricultural-Pests-management
+  ```
+  cd Agricultural-Pests-management
+  ```
 
 ### Step 2: Download the Pre-trained Model
 Ensure you download the EfficientNetV2 pre-trained model and place it in the project directory.
 
 ### Step 3: Run the Live Monitoring Script
-> python live_monitoring.py
+
+  ``` 
+   python live_monitoring.py
+ ```
 
 
 Each frame from the video feed is processed, and the model predicts the presence of pests. The results are overlayed on the video.
