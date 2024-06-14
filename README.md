@@ -9,7 +9,7 @@ Welcome to the Smart Agricultural Pests Management System! This project aims to 
 - **Smart Notifications:** Receive instant email alerts when pests are detected, ensuring timely intervention.
 
 ## Dataset
-The model is trained on a robust dataset from Kaggle, featuring various agricultural pests including:
+The model is trained on a robust dataset from Kaggle https://www.kaggle.com/datasets/gauravduttakiit/agricultural-pests-dataset/ , featuring various agricultural pests including:
 - Ants
 - Bees
 - Beetles
@@ -38,8 +38,21 @@ Leveraging the EfficientNetV2B0 architecture, the model has been fine-tuned spec
 The system captures live video feed through a webcam, processes each frame, and overlays pest detection results directly on the video stream. This enables farmers to monitor their fields in real-time and take immediate action when pests are detected.
 
 ## How to Set Up
+>Nous recommandons l'utilisation d'une distribution Linux ou macOS.
 
 ### Step 1: Clone the Repository
-```bash
-git clone https://github.com/rahulkundelwalll/Agricultural-Pests-management
-cd Agricultural-Pests-management
+
+> git clone https://github.com/18hyacinthe/Agricultural-Pest-Management
+
+> cd Agricultural-Pests-management
+
+### Step 2: Download the Pre-trained Model
+Ensure you download the EfficientNetV2 pre-trained model and place it in the project directory.
+
+### Step 3: Run the Live Monitoring Script
+> python live_monitoring.py
+
+
+Each frame from the video feed is processed, and the model predicts the presence of pests. The results are overlayed on the video.
+
+#Feel Free to Contribute!
