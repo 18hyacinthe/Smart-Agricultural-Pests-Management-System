@@ -56,3 +56,4 @@ Ensure you download the EfficientNetV2 pre-trained model and place it in the pro
 Each frame from the video feed is processed, and the model predicts the presence of pests. The results are overlayed on the video.
 
 # Feel Free to Contribute!
+contact: agbehyavargas@gmail.com
