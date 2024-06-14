@@ -38,7 +38,7 @@ Leveraging the EfficientNetV2B0 architecture, the model has been fine-tuned spec
 The system captures live video feed through a webcam, processes each frame, and overlays pest detection results directly on the video stream. This enables farmers to monitor their fields in real-time and take immediate action when pests are detected.
 
 ## How to Set Up
->Nous recommandons l'utilisation d'une distribution Linux ou macOS.
+> We recommend using a Linux distribution or macOS.
 
 ### Step 1: Clone the Repository
   ```
