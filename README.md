@@ -42,11 +42,11 @@ The system captures live video feed through a webcam, processes each frame, and 
 
 ### Step 1: Clone the Repository
   ```
-  git clone https://github.com/18hyacinthe/Agricultural-Pest-Management
+  git clone https://github.com/18hyacinthe/Smart-Agricultural-Pests-Management-System
   ```
 
   ```
-  cd Agricultural-Pests-management
+  cd Smart-Agricultural-Pests-Management-System
   ```
 
 ### Step 2: Download the Pre-trained Model
