@@ -1,9 +1,9 @@
-import cv2
 import numpy as np
 from tensorflow.keras.models import load_model
 import tensorflow as tf
 from tensorflow.keras.applications.efficientnet import preprocess_input
 import smtplib
+import cv2
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
